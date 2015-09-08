@@ -32,6 +32,7 @@ To overview, the software that I have selected that most meets these requirement
 - [zsh](https://wiki.archlinux.org/index.php/Zsh) as our command line. Zsh is highly configurable and is generally considered more user friendly than bash. Unfortunately the vim mode support is sub-par as far as I have been able to find (currently breaks the better search functionality). Fortunately, I rarely find that I want to enter vim-mode in my terminal.
 - [apvlv](http://naihe2010.github.io/apvlv/) as a vim-like pdf viewer.
 - [WeeChat](https://weechat.org/) with bitlbee as a chat client. I haven't actually gotten this working yet, but I hear it's good.
+- [blog software](http://jekyllrb.com/) -- the software that supports this blog. All blog posts are just written in github markdown and pushed to github.
 
 > Before I go too far, you can view pretty much everything I am going to say from my ever evolving [dotfiles](https://github.com/vitiral/dotfiles).
 
