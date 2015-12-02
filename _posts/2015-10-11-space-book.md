@@ -99,6 +99,27 @@ Singularity  : not even close
         - nano-technology cures destroying almost any parasite/bacteria/virus
         - ultra high focused resonance imaging capable of imaging individual molecules in the human body to bolster understanding
         - implanted sensors and electronics to detect abnormalities and report them to be treated extremely early
+- Food production:
+    - robotics and machine learning have allowed for automated food production
+    - (on earth) permaculture and advanced farming techniques (i.e. using automated robots) have managed to significantly
+        boost environmentally friendly food production. No chemicals are now used, instead biomater is harvested robotically or
+        by using amimals and distributed automatically
+    - "verticle farms" have advanced signiciantly and exist on earth and in space. They account for more than 70% of all food in
+        cities and almost 95% of food in space.
+    - animal protein sources have been almost phased out in favor of fermented and minimally processed plant based protein. The last 125
+        years have created highly delicious and nutritionally complete plant-based calorie sources that are generally preferred to meat.
+- Environmental
+    - A huge number of specie's dna was preseverd in a massive effort during the great extinction (see below)
+    - the effort has been underway for more than 30 years study and computationally model the environment prior to the extinction,
+        to try and rebuild it
+    - there has been some success in brining back the "primary" plants and animals to begin to refresh our environment. However,
+        the complexity of the problem has been admitted to be "huge" and will advancement will be slow.
+    - Because of advances in efficiency (partly driven by space living), modern humans are almost entirely 0 environmental footprint -- so
+        at least they are not harming the environment they live in any more.
+- Gravity
+    - The only "artifical gravity" is centrifugal force (spinning a disk around). That's all. Seriously, Sci-Fi has ridiculous
+        expectations on aritificial gravity. Not only is it widely available in most sci-fi, it also seems to work when there
+        is absolutely no power or only life-support is functioning.
 
 ## Cultural changes
 - space exploration:
@@ -120,3 +141,76 @@ Singularity  : not even close
     - very few people own a car. "Taxis" are self-driving and incredibly cheap
     - public transporation (primarily train) has become the dominant form of transporation,
         with self-driving taxis suplimenting it
+- (on earth) 2093 Environmental Collapse:
+    - "Spiraling extinction rate" of all of earth's species
+    - lead to 80% extinction rate
+    - primary cause was human food production and pollution
+    - human population was 11 billion in 2100 (it had reached a peak of 13 billion in 2075). Over-fishing and farming lead to
+        massive environmental collapse in the food chain and in necessary insects and animals
+    - environmental collapse was almost entirely blamed on animal protein sources, so they became extremely scarce for 25+ years.
+        A massive private and governmental undertaking was done to overhaul the entire world's food production system and heavily
+        regulate it to be in line with scientifically environmental principles
+    - Climate change:
+        - long running process that lead to "water wars" in 2055, massive drought and slow destruction of species.
+        - An entire section of the north atlantic ice sheet came disconnected from the north pole in 2093, causing ocean levels to rise
+            to unprecedented levels. This forced billions from their homes on coastal regions and creatd the largest number of refugees
+            in human history
+        - Several rain forests have flooded, several have been turned to desert. Several grassland/deserts have flooded for over
+            20 years, having the effective climate of a rain forest.
+    - Effect on human population:
+        - The 2093 crisis affected many things:
+            - coastal and island regions were heavily flooded
+            - mass starvation with a death toll of 5 billion people
+        - prior to the water wars (2055), there were about 100 million people in space.
+        - In 2060, there were more than 150 million in space (8 billion on earth), with the IPGB ramping up production of stations,
+            expecting a mass migration
+        - In 2093 there were 1 billion in space (11 billion on earth)
+        - In 2096 there were 2 billion in space (5.5 billion on earth). This was possible because of the massive production in habitation
+            stations that had been underway for decades by they IPGB
+        - In 2150 there are 3 billion in space and 5 billion on earth. Space population is expanding (but not rapidly), and earth population
+            is about steady
+    - Land:
+        - bee and other polinators are almost completely extinct, destroying most 2015 crops and many plant species
+        - farming and hunting killed off most natural grazers, destroying the prarie and brush-forests
+        - Climate change:
+            - A massive effort was launched in 2030 to preserve the rainforests, however massive climate change flooded them or turned them
+                into desert, destroying a huge percentage of the earth's diversity
+            - the already weak praries quickly turned to desert when a 25 year drought struck in 2050-2075 through most of the world
+    - Ocean
+        - Large ocean mamals were destroyed
+        - Reefs were decimated
+        - A majority of the ocean's fish species were destroyed. All large ocean creatures are now extinct except for those held in zoos.
+    - As of 2050, the environment is turning around.
+        - The near infinite energy of cheap high efficiency solar cells has enabled many efforts to be successful.
+        - 98% of polution has been drained from the oceans using high-energy filters and micro-bacterial consumers
+        - Nearly all plastics have been destroyed through a genetically modified bacteria designed to consume it.
+        - Reclamation efforts have managed to restore about 30 reefs, requiring re-cloneing more than 30,000 variets of ocean life.
+        - Greenhouse gases and air polution have been harvested from the atmosphere
+        - Landfills and other trash sites have been harvested for the now valuable carbon and other minerals
+        - Ultra-high regulation prevents any industry from poluting in any way
+            - Significantly enhanced by research into space industries, as they do not allow waste for different reasons
+        - It should be noted that technology that already existed in 2015 could have easily been used to nearly almost completely avoid the
+            collapse. The fact that 2115 technology could begin to reverse the environmental collapse is mostly luck on our part
+            - includes 2015 technology like permaculture, solar, elimation of high waste consumer goods and public transporation
+            - but that isn't what this book is about...
+ - Political changes:
+    - very little has actually changed except for high regulations and crushing penalties concerning environmental damage (see above)
+    - Power changes:
+        - The US had lost a significant amount of miliaary and political power.
+        - Power approximately equally split between the continents (North America, South America, Asia, Europe+Russsia (allies), Africa+Australia (allies))
+        - Standard of living is almost equal throughout the world.
+        - The IPGB controlls almost all of space, except for the area around the earth. It only controlls 1/4 of the moon
+        - The power balance between earth+space is maintained by treaty and millitary force. There is tension, but it has never broke out
+            in war.
+    - standard of living took a horendous dive in the 2093 environmental collapse.
+        - By 2093, most of the world would have been considered nearly 1st world (by 2015 standards).
+        - after collapse, billions of people would have starved to death if not for immediate massive reforms and the sudden availability of
+            migration to space (had begun in 2073, space tower in 2060)
+        - an immediate end to nearly all animal agriculture and the fast creation of verticle farms in space and on earth along with strict
+            population controls barely managed to provide enough calories to the population
+- 2093 space migration
+    - more than 1 billion people migrated to space between 2093 and 2100 (population before 2093 was 350 million)
+    - most governments implemented strict population controls that are still in effect. However, this was not true for the newly formed
+        IPGB (Interplanetary Governing Body), which encouraged reproduction
+    - The IPGB implemented a nearly communist government, with an extremely high standard of living and technology. This encouraged
+        many people to migrate from earth to space.
