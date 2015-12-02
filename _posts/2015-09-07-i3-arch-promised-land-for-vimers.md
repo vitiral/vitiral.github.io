@@ -23,16 +23,17 @@ So that is what these first several blogs will be about: the perfect desktop env
 To overview, the software that I have selected that most meets these requirements are as follows:
 - [Arch Linux](archlinux.org). The base install is minimal and allows us to configure everything without the OS getting in the way
 - [i3 window manager](https://i3wm.org/) is our window manager (i.e. desktop). We will also use i3lock for our screen lock.
-- [urxvt](https://wiki.archlinux.org/index.php/Rxvt-unicode) as a terminal emulator. It is lightweight and very configurable via text, allowing us to do things like map `Alt+y` to copy and `Alt+p` to paste.
+- [urxvt](https://wiki.archlinux.org/index.php/Rxvt-unicode) as a terminal emulator. It is lightweight and very configurable via text, allowing us to do things like map `Alt+c` to copy and `Alt+v` to paste.
 - [vim](https://wiki.archlinux.org/index.php/Vim) with a highly customized `.vimrc` and several packages to make it a full featured IDE (code completion/lookup, refactoring support, etc)
 - [tmux](https://wiki.archlinux.org/index.php/Tmux) with highly customized `.tmux.conf` file to make it vim mode for additional terminal emulation. This is particularly useful if you ssh into your work machine, and may not be necessary for you (as i3 is often better IMO)
 - [firefox](https://www.mozilla.org/en-US/firefox/desktop/) with the [vimperator](https://addons.mozilla.org/en-us/firefox/addon/vimperator/) addon. This allows us to use vim commands to browse the internet. I hardly ever use the mouse anymore.
 
 **Some more minor software**
-- [zsh](https://wiki.archlinux.org/index.php/Zsh) as our command line. Zsh is highly configurable and is generally considered more user friendly than bash. Unfortunately the vim mode support is sub-par as far as I have been able to find (currently breaks the better search functionality). Fortunately, I rarely find that I want to enter vim-mode in my terminal.
+- [zsh](https://wiki.archlinux.org/index.php/Zsh) as our command line. Zsh is highly configurable and is generally considered more user friendly than bash. It has useful features like history searches based on the substring you have and vim-mode (although vim-mode requires some configurating with substring search)
 - [apvlv](http://naihe2010.github.io/apvlv/) as a vim-like pdf viewer.
 - [WeeChat](https://weechat.org/) with bitlbee as a chat client. I haven't actually gotten this working yet, but I hear it's good.
-- [blog software](http://jekyllrb.com/) -- the software that supports this blog. All blog posts are just written in github markdown and pushed to github.
+- [blog software](http://jekyllrb.com/) -- the software that supports this blog. All blog posts are just written with vim in github markdown and pushed to github.
+- [litevault](https://github.com/vitiral/litevault) -- command line password manager written in a single python file (written by me)
 
 > Before I go too far, you can view pretty much everything I am going to say from my ever evolving [dotfiles](https://github.com/vitiral/dotfiles).
 
