@@ -4,7 +4,8 @@ title:  "Why hackers should track their requirements"
 date:   2016-08-08
 categories: developer
 ---
-"Creating requirements" may not be the first two words that come to mind
+["Creating requirements"](https://en.m.wikipedia.org/wiki/Software_requirements_specification) 
+may not be the first two words that come to mind
 when you think of a hacker, but nothing could be more important. Whether
 those requirements exist entirely inside the developer's head or span multiple directories
 depends on the person and the project they are working on, but all of
