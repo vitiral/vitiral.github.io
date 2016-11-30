@@ -7,12 +7,12 @@ addition, I have a clear path forward for how to make the web-ui be able to edit
 the requirements as well.
 
 There are many points I would like to cover in this post, in summary they are:
- - rst's licensing changes
- - learning a new programing langugage to write the front end in, [elm](http://elm-lang.org/)
- - using [nickel.rs](https://github.com/nickel-org/nickel.rs) and the
-     [jsonrpc_core](https://github.com/ethcore/jsonrpc-core) rust libraries
-     for the backend
- - packaging the static html files directly into the released rust binary
+- rst's licensing changes
+- learning a new programing langugage to write the front end in, [elm](http://elm-lang.org/)
+- using [nickel.rs](https://github.com/nickel-org/nickel.rs) and the
+    [jsonrpc_core](https://github.com/ethcore/jsonrpc-core) rust libraries
+    for the backend
+- packaging the static html files directly into the released rust binary
 
 **rst**'s primary goal is to be *simple* -- to make it easy to track requirements and
 integrate into development tools. It will always run locally on your machine
@@ -74,20 +74,26 @@ Before I got too far, I would like to give a shoutout to
 a json-rpc backend about as easy as anyone could ask for.
 
 What was really fun was learning how to package an elm/node app into
-a rust binary -- it turned out to be surprisingly easy! All I had to do
-was have `build.rs` run `npm run build` on my web-ui frontend, package
-it all up with rust's [tar](https://github.com/alexcrichton/tar-rs)
-library and then use the `include_bytes!` macro to include the tar file
-directly in the rust binary during the build.
+a rust binary -- it turned out to be surprisingly easy! I used
+[just](https://github.com/casey/just) to create a simple makefile which
+compiles my node/elm frontend into a tar file that I included in the source.
+I then then use the `include_bytes!` macro to include the tar file directly in
+the rust binary during the build. I then followed the directions on
+[rust-everywhere](https://github.com/japaric/rust-everywhere) to compile
+rust for linux, mac and windows. It was a pain figuring out how to
+package the node-app in a *cross platform* manner, but other than that
+it went really smoothly!
 
 With nickel, hosting was as simple as
 `server.utilize(StaticFilesHandler::new(&tmp_dir))`, where `tmp_dir` was
-just the unpacked tarfile in a temporary directory created by
+just the unpacked [tarfile](https://github.com/alexcrichton/tar-rs)
+in a temporary directory created by
 [tempdir](https://github.com/rust-lang-nursery/tempdir). Big shoutout to
 [alexcrichton](https://github.com/alexcrichton), along with your
 [toml](https://github.com/alexcrichton/toml-rs) library I have used an
 incredible number of your tools for core development needs -- you have
-done an incredible amount to make rust useful for development!
+done an incredible amount to make rust useful for developing complex
+applications!
 
 If you want more details, check out the source code at
 https://github.com/vitiral/rst.
