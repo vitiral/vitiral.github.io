@@ -56,11 +56,19 @@ and if anyone might want to join the effort.
 If you have an opinion (either positive or negative) please
 [open an issue](https://github.com/vitiral/wpkg/issues) and let me know!
 
-[0]: https://github.com/japaric/trust
-[1]: https://github.com/japaric/cross
-[2]: https://github.com/vitiral/artifact
-[3]: https://github.com/BurntSushi/ripgrep
-[4]: http://0install.net/
-[5]: https://github.com/0install/0install/issues/58
-[6]: https://github.com/0install/0install/issues/59
-[7]: https://github.com/vitiral/wpkg
+## Edit: Nix to the rescue
+Although this doesn't meet quite ALL my requirements (mainly that it still
+requires packaging in the Nix repo), I am very interested in the [Nix package
+manager][8]. [This blog post][9] details how it can be used as a virtualenv
+esq package manager.
+
+[0]:https://github.com/japaric/trust
+[1]:https://github.com/japaric/cross
+[2]:https://github.com/vitiral/artifact
+[3]:https://github.com/BurntSushi/ripgrep
+[4]:http://0install.net/
+[5]:https://github.com/0install/0install/issues/58
+[6]:https://github.com/0install/0install/issues/59
+[7]:https://github.com/vitiral/wpkg
+[8]:https://nixos.org/nix/
+[9]:https://dzone.com/articles/isolated-development-environment-using-nix
