@@ -51,7 +51,7 @@ wpkg ("web package", like wget but for package installation). I've started
 the initial design approach and would love to know who is interested
 and if anyone might want to join the effort.
 
-https://github.com/vitiral/wpkg
+[https://github.com/vitiral/wpkg][7]
 
 If you have an opinion (either positive or negative) please
 [open an issue](https://github.com/vitiral/wpkg/issues) and let me know!
@@ -63,3 +63,4 @@ If you have an opinion (either positive or negative) please
 [4]: http://0install.net/
 [5]: https://github.com/0install/0install/issues/58
 [6]: https://github.com/0install/0install/issues/59
+[7]: https://github.com/vitiral/wpkg
