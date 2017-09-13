@@ -9,7 +9,7 @@ I had already written a "vault" password manager in python, called
 [litevault][2] using scrypt to decrypt AND encrypt the passwords.
 That was cool, but had several issues:
 - Didn't run on python3. I'm pretty good at writing for both but
-  I kept hitting minor bugs and finall just gave u.
+  I kept hitting minor bugs and finally just gave up.
 - Adding passwords was a pain -- I wrote a helper to "merge" two
   vaults but it was a nerve wracking experience.
 - The thought of forgetting to commit the vault was scarry -- the
@@ -20,7 +20,7 @@ I've never been quite happy with its mixture of features. Why does it need
 to know my name? What is up with the colorful symbols coresponding to a
 password?
 
-All I wanted with something that using a hash of the password for
+All I wanted was something that using a hash of the password for
 validation purposes, and then site passwords are just a hash of the
 same password. The setings, reference hash and existing sites should
 be stored in a simple toml file, which can be put on github.
@@ -44,7 +44,7 @@ Competition][8]. The `argon2rs` library was a quick `cargo add` away, and the do
 could be read with `cargo doc --open -p argon2rs`.
 
 I refactored the library to use types for everything I cared about. It is now
-IMPOSSIBLE to serialize the user's master password (outside of `secure.rs`, and
+IMPOSSIBLE to serialize the user's master password (outside of `secure.rs`), and
 serializing a site password (even PRINTING it) requires using it's
 `password.audit_this` attribute.
 
@@ -58,8 +58,9 @@ installed by installing rust and using
 cargo install novault
 ```
 
-I will probably start actually using it in the comming month. Feedback and
-audits would be great!
+I will probably start actually using it in the comming month. For now I am
+just using it to store my reddit password, which is [on github][9]. Feedback
+and audits would be great!
 
 [1]: https://github.com/vitiral/artifact
 [2]: https://github.com/vitiral/litevault
@@ -69,3 +70,4 @@ audits would be great!
 [6]: https://www.google.com/search?q=rust+cargo+add&ie=utf-8&oe=utf-8
 [7]: https://github.com/vitiral/stdcli
 [8]: https://en.wikipedia.org/wiki/Argon2
+[9]: https://github.com/vitiral/dotfiles
