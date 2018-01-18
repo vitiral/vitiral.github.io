@@ -137,9 +137,9 @@ will be detecting any regressions and opening bugs with the relevant libraries.
 
 ## Gap 5 (stretch): Distributing Your Application
 This one is a bit of a stretch, but I would like to have a simple way to
-distribute applications written in artifact that doesn't require me to maintain
-a build systems on Travis and Appveyor for 3 platforms. I am seriously looking
-at the Nix project as the savior to all my woes. I don't have much more to say
+distribute applications written in rust that doesn't require me to maintain a
+build systems on Travis and Appveyor for 3 platforms. I am seriously looking at
+the Nix project as the savior to all my woes. I don't have much more to say
 except that the rust team's goal of making it easier to integrate cargo into
 build system is _much_ appreciated.
 
@@ -150,7 +150,7 @@ and it needs only a few relatively minor tweaks to make it the best language
 for developing CLIs bar none.
 
 The introduction of webassembly and being able to write client-side web
-applications will only make this case *stronger*. Imagine being able to expose
+applications will only make this case _stronger_. Imagine being able to expose
 a CLI application that can launch a static (or dynamic+backend) webpage
 whenever that makes sense. Imagine `ps` (for monitoring processes), but you
 could do `ps serve` and it would pop open a dynamically updating processor
