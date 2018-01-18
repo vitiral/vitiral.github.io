@@ -83,7 +83,7 @@ touching your source code -- and running the tests takes almost no time at all!
 > in regular rust tests SO much easier. This is a life saver for CLI
 > applications!
 >
-> Also shoutout to the ["{:#?}"][pretty_print] pretty printing formatter.  When
+> Also shoutout to the [`"{:#?}"`][pretty_print] pretty printing formatter.  When
 > I discovered it I felt like the largest pain point of rust just vanished.
 
 
@@ -111,7 +111,7 @@ simultaniously provide built-in logging?
 
 
 ### Gap 4: bringing it all together
-The third major gap is the ergonomics _of actually using_ the ecosystem. It is
+The fourth major gap is the ergonomics _of actually using_ the ecosystem. It is
 often stated that rust's ecosystem is immature. While this is somewhat true,
 the real issue is in _finding_ and _using_ the pieces you need.
 
