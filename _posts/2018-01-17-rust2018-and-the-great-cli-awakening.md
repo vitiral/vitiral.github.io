@@ -76,12 +76,15 @@ crate I wrote called [termstyle][termstyle] to aid in being able to easily
 express your styles (when you write your app) and then make it easy to test
 them as well. The goal is to be able to write your CLI tests in a simple YAML
 file and get clear diffs against the expected vs result. One of the benefits:
-while you are writing your tests is there is no compilation time if you are not
+while you are writing your tests there is no compilation time if you are not
 touching your source code -- and running the tests takes almost no time at all!
 
 > Shoutout to [pretty_assertions][pretty_assertions] for making reading diffs
 > in regular rust tests SO much easier. This is a life saver for CLI
 > applications!
+>
+> Also shoutout to the ["{:#?}"][pretty_print] pretty printing formatter.  When
+> I discovered it I felt like the largest pain point of rust just vanished.
 
 
 ### Gap 3: working with errors
@@ -100,10 +103,11 @@ The basic idea is this:
 
 What I would like to do is leverage something like [slog][slog] for this
 purpose. `slog` has a similar design: it wants you to pass a "log sender"
-into every function/struct and log to that. More investigation is necessary,
-but I (personally) found slog very difficult to get running. Maybe simply
-improving `slog`'s ergonomics could fill this gap and simultaniously
-provide built-in logging?
+into every function/struct and log to that. What I need is a way to *query*
+what logs have been passed (in particular whether they are errors). More
+investigation is necessary, but I (personally) found slog very difficult to get
+running. Maybe simply improving `slog`'s ergonomics could fill this gap and
+simultaniously provide built-in logging?
 
 
 ### Gap 4: bringing it all together
@@ -133,11 +137,11 @@ will be detecting any regressions and opening bugs with the relevant libraries.
 
 ## Gap 5 (stretch): Distributing Your Application
 This one is a bit of a stretch, but I would like to have a simple way to
-distribute applications written in artifact that doesn't require me to
-maintain 4 build systems on Travis. I am seriously looking at the Nix project
-as the savior to all my woes. I don't have much more to say except that
-the rust team's goal of making it easier to integrate cargo into build system
-is _much_ appreciated.
+distribute applications written in artifact that doesn't require me to maintain
+a build systems on Travis and Appveyor for 3 platforms. I am seriously looking
+at the Nix project as the savior to all my woes. I don't have much more to say
+except that the rust team's goal of making it easier to integrate cargo into
+build system is _much_ appreciated.
 
 
 ## Conclusion
@@ -157,20 +161,21 @@ Rust will push this frontier. We are going to see more and more hybrid CLI/Web
 applications being built every day and rust could be the language of choice. I
 think it will be, and I think #Rust2018 will be what turns the tide.
 
-[stdx]: TODO
-[structopt]: TODO
-[walkdir]: TODO
-[std_prelude]: TODO
-[stdcli]: TODO
-[termstyle]: TODO
-[fern]: TODO
-[assert_cli]: TODO
-[proptest]: TODO
-[cargo-edit]: TODO
-[artifact]: TODO
-[path_abs]: TODO
-[serde]: TODO
-[rust2018]: TODO
-[pretty_assertions]: TODO
-[sync_sender]: TODO
-[slog]: TODO
+[stdx]: https://github.com/brson/stdx
+[structopt]: https://github.com/TeXitoi/structopt
+[walkdir]: https://github.com/BurntSushi/walkdir
+[std_prelude]: https://github.com/vitiral/std_prelude
+[stdcli]: https://github.com/vitiral/stdcli
+[termstyle]: https://github.com/vitiral/termstyle
+[fern]: https://github.com/daboross/fern
+[assert_cli]: https://github.com/killercup/assert_cli
+[proptest]: https://github.com/AltSysrq/proptest
+[cargo-edit]: https://github.com/killercup/cargo-edit
+[artifact]: https://github.com/vitiral/artifact
+[path_abs]: https://github.com/vitiral/path_abs
+[serde]: https://github.com/serde-rs/serde
+[rust2018]: https://blog.rust-lang.org/2018/01/03/new-years-rust-a-call-for-community-blogposts.html
+[pretty_assertions]: https://github.com/colin-kiegel/rust-pretty-assertions
+[sync_sender]: https://doc.rust-lang.org/std/sync/mpsc/struct.Sender.html
+[slog]: https://github.com/slog-rs/slog
+[pretty_print]: https://doc.rust-lang.org/std/fmt/#sign0
