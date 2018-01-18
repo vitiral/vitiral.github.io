@@ -20,8 +20,8 @@ come from python!).
 However, there are some serious difficulties. The std library is small, and while
 adding functionality from crates with [cargo-edit][cargo-edit] is a simple
 `cargo add` away, there are *so* many crates that make up a typical CLI, each
-one requring you to add `extern crate foo` and `use foo` in every file you want
-to use it.
+one requring you to add `extern crate foo` to your `main.rs` and then have to
+write `use foo` at the top of every file you want to use it.
 
 Probably the most significant paper cut is that rust's error handling semantics
 of `Result<T, E>` don't work well for the CLI use case. In most cases a CLI
