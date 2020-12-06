@@ -1,5 +1,3 @@
-# How I Reclaimed My Attention
-
 It feels like boredome has been nearly extinguished, but our resiliency to it
 is lower than ever. Our smartphone is always at hand, and if you pay attention
 you can likely find yourself checking it nearly every second of downtime --
